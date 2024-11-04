@@ -12,6 +12,7 @@ bun install
 ```
 
 - Đầu tiên ta sẽ cần thay đổi file /src/config/site.tsx, tuỳ chỉnh nội dung theo ý bạn muốn.
+- Với các imageUrl, nhớ vào `next.config.mjs` để thêm vào `images` các domain để có thể sử dụng được.
 - Sau đó ta có thể chạy được trang web bằng cách chạy lệnh `npm run dev` hoặc `yarn dev` hoặc `pnpm dev` hoặc `bun dev`.
 
 ```bash
@@ -25,8 +26,6 @@ bun dev
 ```
 
 Mở trang [http://localhost:3000](http://localhost:3000) Trên trình duyệt để xem kết quả.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## EventCard 3D ThreeJS:
 - Chúng ta có để ý rằng có một component EventCard sử dụng ThreeJS để hiển thị một số hiệu ứng 3D. Tuy nhiên để tuỳ chỉnh 
