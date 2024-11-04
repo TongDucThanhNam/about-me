@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
+import {highlightData} from "@/config/site";
 
 
 export function HeroHighlightDemo() {
@@ -21,10 +22,10 @@ export function HeroHighlightDemo() {
                 }}
                 className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
             >
-                Không có em, mỗi ngày a trôi qua thật là
-                {" "}
+                {highlightData.text}
+                <br/>
                 <Highlight className="text-black dark:text-white">
-                    đen tối, ảm đạm, vô vị, vô vọng, lứng
+                    {highlightData.highlight}
                 </Highlight>
             </motion.h1>
         </HeroHighlight>
