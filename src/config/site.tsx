@@ -35,7 +35,7 @@ export const introduce = {
         "Giàu tình cảm 😘",
         "Có laptop 💻"
     ],
-    gltfModel: "/models/done.glb", // Path: public/models/done.glb -> Read README.md to know how to create this file
+    gltfModel: "/models/card.glb", // Path: public/models/done.glb -> Read README.md to know how to create this file
     texture: "/models/brand.png" // Path: public/models/brand.png -> Size 1024x248
 }
 
