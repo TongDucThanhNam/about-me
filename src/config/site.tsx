@@ -11,6 +11,7 @@ export const webMetaData = {
 export const macbook = {
     content: (
         <span>
+
             Hãy tìm hiểu thêm về tớ nhé
         <br/>
         Love you 🥰
